@@ -8,11 +8,19 @@ h1,h2,h3{
     margin: 0;
 }
 
-#cart{
+#cart, #products{
     float: left;
     margin-right: 20px;
 }
 #cart-items{
     list-style-type: none;
     padding: 0;
+}
+.product{
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+.add-to-cart{
+    
 }
