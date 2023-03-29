@@ -8,8 +8,8 @@ h1,h2,h3{
     margin: 0;
 }
 
-#cart, #products{
-    float: left;
+#cart{
+    border: 1px solid black;
     margin-right: 20px;
 }
 #cart-items{
@@ -22,5 +22,14 @@ h1,h2,h3{
     margin-bottom: 10px;
 }
 .add-to-cart{
-    
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    margin: 4px 2px;
+    cursor: pointer;
 }
