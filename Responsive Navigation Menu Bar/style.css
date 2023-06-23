@@ -50,4 +50,18 @@ nav #icon{
     float: right;
     margin-right: 40px;
     cursor: pointer;
+    display: none;
+}
+
+@media (max-width:1048px){
+    label.logo{
+        font-size: 32px;
+        padding-left: 60px;
+    }
+    nav ul{
+        margin-right: 20px;
+    }
+    nav a{
+        font-size: 17px;
+    }
 }
