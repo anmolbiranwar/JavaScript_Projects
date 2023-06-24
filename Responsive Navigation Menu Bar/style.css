@@ -77,8 +77,21 @@ nav #icon{
         top: 80px;
         left: 0;
         text-align: center;
+        transition: all .5s;
     }
     nav li{
         display: block;
+        margin: 50px 0;
+        line-height: 30px;
+    }
+    nav a{
+        font-size: 20px;
+    }
+    a.active, a:hover{
+        border: none;
+        color: #3498db;
+    }
+    nav ul.show{
+        left: 0;
     }
 }
