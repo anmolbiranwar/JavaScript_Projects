@@ -1,6 +1,6 @@
 const button=document.getElementById('btn');
 const body=document.querySelector('body');
-const color=['red','green','blue','yellow','pink','grey','line'];
+const color=['red','green','blue','yellow','pink','grey','orange'];
 
 body.style.backgroundColor='black';
 button.addEventListener('click',()=>{
