@@ -9,3 +9,8 @@ main{
     width: 1200px;
     margin: auto;
 }
+#header{
+    width: 100%;
+    min-height: 70px;
+    border: 1px solid black;
+}
